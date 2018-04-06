@@ -29,6 +29,13 @@ body {
   margin: auto;
   border-bottom: 1px #ddd solid; }
 
+.sh {
+  box-shadow: 3px 3px 10px #3292a6;
+}
+.shr {
+  box-shadow: 3px 3px 10px grey;
+}
+
 #author img {
   margin-top: -50px; }
 
