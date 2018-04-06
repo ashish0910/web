@@ -5,20 +5,20 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>LoopLAB Theme</title>
+    <title>ApsMind</title>
     <link rel="stylesheet" href="css/font-awesome.min.css">
     <link rel="stylesheet" href="css/bootstrap.css">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/animate.css">
   </head>
 
-  <body>
+  <body id="signIn">
     <!-- Navbar -->
     <nav class="navbar navbar-expand-md navbar-light fixed-top py-4">
       <div class="container">
         <a href="index.html" class="navbar-brand">
           <img src="img/mlogo.png" width="50" height="50" alt="">
-          <h3 class="d-inline align-middle">AlpsMind</h3>
+          <h3 class="d-inline align-middle">ApsMind</h3>
         </a>
         <div class="navbar-toggler" data-toggle="collapse" data-target="#navbarNav">
           <span class="navbar-toggler-icon"></span>
@@ -39,11 +39,14 @@
       </div>
     </nav>
 
+    <!-- Particle -->
+    <div id="particles-js" class="login"></div>
+
     <!-- Signup -->
-    <div class="container mt-5 mb-5 pt-5">
+    <div class="container signup mt-5 mb-5 pt-5">
       <div class="row">
         <div class="col-md-6 mx-auto">
-          <div class="card">
+          <div class="shr card">
             <div class="card-header text-center">
               Account Login
             </div>
@@ -66,10 +69,10 @@
     </div>
 
     <!-- SignUp -->
-    <div class="container mt-5 pt-5">
+    <div class="container signup2 mt-5 pt-5">
       <div class="row">
         <div class="col-md-6 mx-auto">
-          <div class="card">
+          <div class="shr card">
             <div class="card-header text-center">
               Signup For New Students
             </div>
@@ -99,7 +102,23 @@
       </div>
     </div>
 
+    <footer id="main-footer" class="py-5 bg-primary text-white">
+      <div class="container">
+        <div class="row text-center">
+          <div class="col-md-6 ml-auto">
 
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script src="js/particles.js"></script>
+    <script src="js/app.js"></script>
+    <script src="js/navbar-fixed.js"></script>
+    <script src="js/jquery.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/navbar-fixed.js"></script>
   </body>
 
 </html>
